@@ -17,3 +17,8 @@ section {
 .navbar-toggler-icon {
     color: red;
 }
+
+#links a {
+    text-decoration: none;
+    color: inherit;
+}
