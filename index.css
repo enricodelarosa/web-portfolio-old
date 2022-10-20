@@ -59,10 +59,13 @@ input[type=number] {
 
 .button-link button{
     font-size: 30px;
+    color: Black;
+    background-color: #F4C7AB;
+    border-color: #DEEDF0;
 }
 
 .button-link button:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: red; /* Green */
     color: white;
   }
 
@@ -77,3 +80,4 @@ input[type=number] {
   footer {
     background-color: #F4C7AB!important;
   }
+
