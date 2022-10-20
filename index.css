@@ -76,6 +76,30 @@ input[type=number] {
     }
   }
 
+  @media only screen and (max-width: 930px) {
+    footer{
+        position:fixed;
+        right:0;
+        bottom:0;
+        left:0;
+        z-index:1030;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    iframe{
+        height: 400px;
+    }
+  }
+
+  @media only screen and (min-width: 451px) and (max-width: 2000px) {
+    iframe{
+        height: 600px;
+    }
+  }
+
+
+
 
   footer {
     background-color: #F4C7AB!important;
