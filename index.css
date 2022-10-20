@@ -1,4 +1,4 @@
-#navbar {
+#navbar-rico {
     background-color: #B2B8A3;
 }
 
@@ -23,7 +23,7 @@ section {
     color: inherit;
 }
 
-#button-link {
+.button-link {
     text-decoration: none;
     color: inherit;
 }
@@ -47,3 +47,28 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+#nav-links a {
+    font-size: 200%;
+}
+
+.name-brand {
+    font-size: 200%;
+    color: #FFF5EB;
+}
+
+.button-link button{
+    font-size: 30px;
+}
+
+.button-link button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .button-link button{
+        font-size: 20px;
+    }
+  }
