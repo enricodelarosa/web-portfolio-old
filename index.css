@@ -1,0 +1,19 @@
+#navbar {
+    background-color: #B2B8A3;
+}
+
+body {
+    background-color: #FFF5EB;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+section {
+    background-color: #DEEDF0;
+}
+
+.navbar-toggler-icon {
+    color: red;
+}
