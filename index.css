@@ -72,3 +72,8 @@ input[type=number] {
         font-size: 20px;
     }
   }
+
+
+  footer {
+    background-color: #F4C7AB!important;
+  }
