@@ -77,8 +77,20 @@ input[type=number] {
 
   @media only screen and (max-width: 500px) {
     .button-link button{
-        font-size: 20px;
+        font-size: 13px;
     }
+
+    .navbar-toggler{
+      height: 28px!important; 
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+
+    }
+
+    .navbar-toggler-icon {
+      height: .8em;
+    }
+
   }
 
   @media only screen and (max-width: 930px) {
@@ -110,3 +122,36 @@ input[type=number] {
     background-color: #F4C7AB!important;
   }
 
+   .landing {
+      background-image: url('./landing.jpg');
+      background-position: center;
+    
+  } 
+
+  .landing .row {
+    --bs-gutter-x: 0rem!important;
+  }
+
+
+
+
+  @media only screen and (max-width: 450px) {
+    .welcome {
+      margin-bottom: 280px;
+      font-size: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 451px) and (max-width: 850px) {
+    .welcome {
+      margin-bottom: 470px;
+      font-size: 150px;
+    }
+  }
+
+  @media only screen and (min-width: 851px) and (max-width: 2000px) {
+    .welcome {
+      margin-bottom: 300px;
+      font-size: 150px;
+    }
+  }

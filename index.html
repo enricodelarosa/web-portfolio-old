@@ -21,7 +21,7 @@
 <body>
     <header class="fixed-top">
         <!-- Start of Nav bar -->
-        <nav id="navbar-rico" class="navbar navbar-expand-md navbar-light">
+        <nav id="navbar-rico" class="navbar navbar-expand-md navbar-light py-0 py-md-1 py-lg-2">
             <div class="container-fluid">
               <a class="navbar-brand name-brand d-none d-lg-inline" href="#">Enrico Dela Rosa</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +30,13 @@
               <a class="button-link" href="tel:+639176511020"><button class="btnz btn btn-outline-success d-block d-md-none">Call Me</button></a>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="nav-links" class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
+                <ul id="nav-links" class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#aboutme">About Me</a>
                   </li>
 
                   <li class="nav-item">
@@ -53,7 +57,21 @@
     </header>
 
     <main data-bs-spy="scroll" data-bs-target="#navbar-rico" class="d-flex flex-column pt-lg-3"><!--  -->
-        <div  id="home" class="mx-2 mx-lg-0 order-2 order-md-1">
+        <div  id="home">
+          <section class="landing" class="container-fluid">
+            <div class="row vh-100 d-flex align-items-end justify-content-center">
+              <div class="col-6 col-md-12 col-lg-12 text-center">
+                <h1 class="welcome">
+                  Need Help?
+                </h1>
+              </div>
+
+            </div>
+
+          </section>
+        </div>
+
+        <div  id="aboutme" class="mx-2 mx-lg-0 order-2 order-md-1">
         <section class="container-fluid">
             <div class="row justify-content-center mt-5 align-items-center min-vh-100">
                 <div class="col-12 col-md-8 order-2 order-lg-1 col-lg-4 text-center d-none d-lg-block">
@@ -230,9 +248,9 @@
                 
 
                 <!-- start of row 1 -->
-                <div class="row pb-3 mb-3 pb-md-5 mb-md-5 justify-content-center pt-5">
+                <div class="row pb-3 mb-3 pb-md-5 mb-md-5 justify-content-center pt-5 pt-md-0">
                     <!-- start of map -->
-                    <div class="col-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-md-12 col-lg-6 mb-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7354758847723!2d121.0781850152788!3d14.557113782042514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7d579c5f42b%3A0x89da6357296728ea!2sEastern%20Petroleum%20Corporation!5e0!3m2!1sen!2sph!4v1666273215031!5m2!1sen!2sph" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     </div>
@@ -330,7 +348,7 @@
 
     </main>
 
-    <footer class="d-flex justify-content-around py-0 py-md-2 py-lg-3">
+    <footer class="d-flex justify-content-around py-0 py-md-2 py-lg-2">
         <span>Enrico Emil Dela Rosa</span>
         <span>&copy;  All Rights Reserved 2021</span>
     </footer>
