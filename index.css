@@ -126,7 +126,7 @@ input[type=number] {
       background-image: url('./landing.jpg');
       background-position: center;
     
-  } 
+    } 
 
   .landing .row {
     --bs-gutter-x: 0rem!important;
@@ -137,14 +137,25 @@ input[type=number] {
 
   @media only screen and (max-width: 450px) {
     .welcome {
-      margin-bottom: 280px;
+      margin-bottom: 50px;
       font-size: 80px;
     }
 
     #nav-links a {
       font-size: 100%;
   }
+
+  .landing {
+    background-image: url('./computer.jpg');
+    background-position: 50% 35%;
   }
+  
+    
+    #home h1 {
+      transform: rotate(-20deg);
+    }
+  
+}
 
   @media only screen and (min-width: 451px) and (max-width: 850px) {
     .welcome {
