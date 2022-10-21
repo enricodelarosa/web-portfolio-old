@@ -6,8 +6,13 @@ body {
     background-color: #FFF5EB;
 }
 
-* {
+body {
     font-family: 'League Spartan', sans-serif;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+
 }
 
 section {
@@ -49,16 +54,16 @@ input[type=number] {
 }
 
 #nav-links a {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .name-brand {
-    font-size: 200%;
+    font-size: 150%;
     color: #FFF5EB;
 }
 
 .button-link button{
-    font-size: 30px;
+    font-size: 22px;
     color: Black;
     background-color: #F4C7AB;
     border-color: #DEEDF0;
